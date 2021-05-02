@@ -4,7 +4,7 @@ The Multilevel (or) Unstructured (or) Nested JSON is nothing but any JSON whose 
 Data of this kind is generally read from an API which has the varying data structure but when the only useful part of that is key-values.
 
 ## What does this do?
-The simple 10 lined (approx.) function in the code takes in the JSON as object and returns slice of all the leaf key-value pairs in the structure. This doesn't preserve details of the depth, but just KVs of all levels.
+A simple 10 lined (approx.) function in the code takes in the JSON as object and returns slice of all the leaf key-value pairs in the structure. This doesn't preserve details of the depth, but just KVs of all levels.
 
 For instance, if your API was fed with the following JSON structure
 ```
