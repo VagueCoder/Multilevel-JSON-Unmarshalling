@@ -7,7 +7,7 @@ Data of this kind is generally read from an API which has the varying data struc
 A simple 10 lined (approx.) function in the code takes in the JSON as object and returns slice of all the leaf key-value pairs in the structure. This doesn't preserve details of the depth, but just KVs of all levels.
 
 For instance, if your API was fed with the following JSON structure
-```
+```json
 	{
 		"map1": {
 					"key1": "val1",
