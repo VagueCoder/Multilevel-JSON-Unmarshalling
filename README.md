@@ -37,7 +37,7 @@ map[key1:val1 key2:val2 key3:val3 key4:val4 key5:val5 key6:val6 key7:val7 key8:v
 
 #### As simple as that!!
 
-## My thoughts on this
+## My thoughts on this?
 1. This is a one-time development and isn't made for adding better versions of the same. Hope this gets captured in search for Newbies to go (golang) for their understanding.
 1. This should handle JSON with any depth. The only expected limitation is the Out-Of-Memory-Exception.
 1. Using goroutines, channels or receiver to function will definitely add value to execution. But the aim is to keep it simple for demonstration/execution and closer to native code.
