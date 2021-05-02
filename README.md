@@ -8,26 +8,26 @@ A simple 10 lined (approx.) function in the code takes in the JSON as object and
 
 For instance, if your API was fed with the following JSON structure
 ```json
-	{
-		"map1": {
-					"key1": "val1",
-					"key2": "val2",
-					"key3": "val3"
-				},
-		"map2": {
-					"key4": "val4",
-					"map3": {
-								"key5": "val5",
-								"key6": "val6"
-							},
-					"map4": {
-								"key7": "val7",
-								"map5": {
-											"key8": "val8"
-										}
-							}
-				}
+{
+	"map1": {
+		"key1": "val1",
+		"key2": "val2",
+		"key3": "val3"
+	},
+	"map2": {
+		"key4": "val4",
+		"map3": {
+			"key5": "val5",
+			"key6": "val6"
+		},
+		"map4": {
+			"key7": "val7",
+			"map5": {
+				"key8": "val8"
+			}
+		}
 	}
+}
 ```
 
 The expected output from the function would be
